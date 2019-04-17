@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <title>FREE SITE</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+	
+
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body>
+    <div class=wrapper>
+            <nav>
+                    <div class="navigation">
+                            <ul class="menu">
+                                <li><a href="#headerinfo">Главная</a></li>
+                                <li><a href="#about">О нас</a></li>
+                                <li><a href="#options">Услуги</a></li>
+                                <li><a href="#projects">Наши проекты</a></li>
+                                <li><a href="#tradein">Trade-In</a></li>
+                                <li><a href="#contactus">Обратная связь</a></li>
+                            </ul>
+                        </div>
+            </nav>
+        <div id="headerinfo"  class="header">
+            
+            <div class="infobox">
+                    <img src="img/hands.jpg" alt="imghands" class="imghands">
+
+               <div class="mask"></div>
+               <div class="info"></div>
+               
+            </div>
+        </div>
+        
+        <div id="about" class="about">
+                <div class="weare">О нас</div>
+                <div class="weinfo">  Основная специализация — проектирование сайов и landing page.<p></p> 
+                        Наша команда, состоящая из дизайнеров, маркетологов и программистов, </p>
+                    <p></p>поддерживает каждый проект на протяжении всей его жизни. Студия </p>
+                        занимается разработкой индивидуального дизайна, оптимизацией </p>
+                        скорости работы продукта, предоставляет услуги по продвижению сайтов.</div>
+                <div class="webig">WE</div>
+                 <div class="blox start">
+                     <div class="startheader">
+                            <img src="img/blrocket.png" alt="blrocket" class="blrocket"> 
+                        Старт</div>
+                     <div class="startinfo">
+                            Вы хотите получать больше клиентов 
+                            и прибыли из интернета? С нуля разработаем 
+                            сайт любой сложности,учитывая индивидуальные
+                            особенности вашего бизнеса. Стоимость создания 
+                            сайта в каждом конкретном случае индивидуальна 
+                            и рассчитывается исходя из пожеланий и 
+                            требований клиента
+                     </div>
+                    </div>
+                <div class="blox move">
+                        <div class="moveheader"> Продвижение</div>
+                        <div class="moveinfo"></div>
+                </div>
+                <div class="blox help"> 
+                       
+                    <div class="helpheader"> Поддержка</div>
+                <div class="helpinfo"></div></div>
+                <div class="mbx-1"></div>
+                <div class="mbx-2"></div>
+                <div class="mbx-3"></div>
+        </div>
+        <div id="options" class="options">
+                <div class="infobox2">
+            <img src="img/cupcoffee.jpg" alt="cupcoffee" class="cupcoffee">
+            <div class="mask2"></div>
+            <div class="optinfo"></div>
+                </div>
+        </div>
+        <div id="projects" class="projects"></div>
+        <div id="adapt"class="adapt"></div>
+        <div id="tradein"class="tradein">
+                <div class="infobox3">
+                        <img src="img/bookphone.jpg" alt="bookphone" class="bookphone">
+    
+                   <div class="mask3"></div>
+                   <div class="infotradein"></div>
+        </div>
+        <div id="everhelp" class="everhelp">
+            
+        </div>
+        <div id="contactus" class="contactus"></div>
+    </div>
+    <script>jQuery(function($) {
+	        $(window).scroll(function(){
+	            if($(this).scrollTop()>805){
+	                $('.navigation').addClass('fixed');
+	            }
+	            else if ($(this).scrollTop()<805){
+	                $('.navigation').removeClass('fixed');
+	            }
+	        });
+	    });</script>
+</body>
+</html>
