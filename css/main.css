@@ -4,6 +4,7 @@
 }
 
 body {
+   background-color: gray;
 
     width:100vmax;
 }
@@ -11,6 +12,7 @@ body {
 
 
 .wrapper {
+   background-color: #ffffff;
 
 max-width: 1500px;
 width:100% ;
@@ -197,10 +199,14 @@ margin-left: -86px;}
       transition:  1.5s ease;
    opacity: 0.9;
    color: #ffffff;
-   background-image: url(../img/logo.png)  rgb(221, 100, 19);
+   background-color: rgb(221, 100, 19);
   z-index: 1;
 
       }
+      .blox:hover img {
+         
+      filter: brightness(0) invert(1);
+      transition:  1.5s ease;}
 
    
    .start{grid-column:2 }
