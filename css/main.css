@@ -314,13 +314,20 @@ margin-left: -86px;}
          position:relative;
          grid-column: 1/9;
       }
-.parts{position: relative}
+      .parts {
+
+         position: relative;
+         display: grid;
+         grid-template-columns: 50px 1fr 1fr 1fr 50px;
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+     
+     }
 .orangsq
 {height: 500px;
 width: 665px;
 background-color: orange;
 
-
+position: relative;
 
 
 margin-top: -50px
