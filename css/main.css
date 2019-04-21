@@ -82,18 +82,18 @@ height: 100%;
 }
 .info {position: relative;
    z-index: 1;
-   font-size: 46px;
+   font-size: 2.4vw;
    color: #ffffff;
    grid-column: 2/8;
    grid-row: 2;
    text-align: center;
    font-family: Tahoma, sans-serif;
 font-weight: bold;
-top:30px;}
+margin-top: 30px;}
 
 
 .infosmall{
-   font-size: 24px ;
+   font-size: 1.25vw ;
    grid-row: 3;
    grid-column: 3/7;
    text-align: center;
@@ -115,7 +115,9 @@ grid-gap: 50px
    .sqr 
    {
       margin-left: 25px;
-   margin-right: 25px}
+   margin-right: 25px;
+width: 100%;
+height: 100%;}
    .boxsqr1
    {
       grid-column: 2}
