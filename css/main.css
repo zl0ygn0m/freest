@@ -287,7 +287,7 @@ margin-left: -86px;}
 
    .help{grid-column: 4}
 
-
+.options{height: 1810px;}
 
    .cupcoffee{  max-width: 100%;
       height: auto;
@@ -333,6 +333,45 @@ position: relative;
 margin-top: -50px;text-align: center;
 font-size: 64px;
 font-family: 'PT Sans', sans-serif;}
+.detal:hover{     -webkit-animation-name: spin;
+   -webkit-animation-duration: 600ms;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-timing-function: linear;
+   -moz-animation-name: spin;
+   -moz-animation-duration: 600ms;
+   -moz-animation-iteration-count: infinite;
+   -moz-animation-timing-function: linear;
+   -ms-animation-name: spin;
+   -ms-animation-duration: 600ms;
+   -ms-animation-iteration-count: infinite;
+   -ms-animation-timing-function: linear;
+
+   animation-name: spin;
+   animation-duration: 600ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+   from { -ms-transform: rotate(0deg); }
+   to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+   from { -moz-transform: rotate(0deg); }
+   to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+   from { -webkit-transform: rotate(0deg); }
+   to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+   from {
+       transform:rotate(0deg);
+   }
+   to {
+       transform:rotate(360deg);
+       
+   }
+}
 
 
 
@@ -342,12 +381,40 @@ font-family: 'PT Sans', sans-serif;}
 
 
 
+.projects{display: grid;
+
+position: relative;
+
+grid-template-columns: repeat(8,1fr);
+
+grid-template-rows: 1fr  1fr 1fr 1fr;}
 
 
 
+.prjheader{grid-column: 1/9;
+   background-color: orange;
+text-align: center;
+height: 100%;}
 
+.prjheader:hover{
+  
+   position: relative;
+   background-color:rgba(48, 50,99,0.67);
+   transition:  1.5s ease;
+opacity: 0.9;
+color: #ffffff;}
 
-
+   
+.prjheader h1 {font-size:  80px;
+position: relative}
+.prjheader h3 {font-size:  48px;
+   position: relative}
+.prjtop{grid-column: 1/9;}
+            
+.prjbottom{grid-column: 1/9;}
+           
+.prjfooter{grid-column: 1/9;
+   background-color: rgba(48, 50,99,0.67)}
 
 
 
