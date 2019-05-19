@@ -234,23 +234,29 @@
 
 
         <div id="container1" class="container1">
-                <form class="mainform" >
+                <form class="mainform" ><div class="contform">
                  <p class="name">
-                 <input type="text" name="name" value="Имя автора" />
-                 <label for="name">Имя</label>
+                <input type="text" name="name" value="Ваше имя" onblur="if(this.value.length == 0) this.value = 'Ваше имя'" onfocus="if(this.value == 'Ваше имя') this.value = '' "/>
+                 <label for="name"></label>
                  </p>
+                 <p class="name2">
+                        <input type="text" name="name2" value="Ваша фамилия" onblur="if(this.value.length == 0) this.value = 'Ваша фамилия'" onfocus="if(this.value == 'Ваша фамилия') this.value = '' "/>
+                         <label for="name"></label>
+                         </p>
                 
                  <p class="email">
-                 <input type="text" name="email" value="name@example.com" />
-                 <label for="email" >E-Mail</label>
+                        <input type="text" name="email" value="E-mail" onblur="if(this.value.length == 0) this.value = 'E-mail'" onfocus="if(this.value == 'E-mail') this.value = '' " />
+                 <label for="email" ></label>
                  </p>
                  <p class="msg">
-                 <textarea name="msg">Текст сообщения</textarea>
-                 </p>
+                        <textarea name="msg" onblur="if(this.value.length == 0) this.value = 'Текст сообщения'" onfocus="if(this.value == 'Текст сообщения') this.value=''">Текст сообщения</textarea>
+                 </p></div>
                  <p class="send" >
-                 <input type="submit" value="Отправить"  />
-                 </p>
+                        <input type="submit" value="Отправить"  />
+                        </p>
+                
                 </form>
+                
                 </div>
 
 
