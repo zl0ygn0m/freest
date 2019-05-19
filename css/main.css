@@ -268,7 +268,7 @@ margin-left: -86px;}
 
    
    .blox:hover{background-color: orange;
-      transition:  1.5s ease;
+      transition:  0.6s ease;
    opacity: 0.9;
    color: #ffffff;
    ;
@@ -278,7 +278,7 @@ margin-left: -86px;}
       .blox:hover img {
          
       filter: brightness(0) invert(1);
-      transition:  1.5s ease;}
+      transition:  0.6s ease;}
 
    
    .start{grid-column:2 }
@@ -286,8 +286,10 @@ margin-left: -86px;}
    .startheader{font-size: 24px}
    .startinfo{font-size: 16px}
    .move{grid-column: 3}
+   .moveinfo{font-size: 16px}
 
    .help{grid-column: 4}
+   .helpinfo{font-size: 16px}
 
 .options{height: 1810px;}
 
@@ -331,19 +333,26 @@ background-color: orange;
 
 position: relative;
 
-
 margin-top: -50px;text-align: center;
 font-size: 64px;
 font-family: 'PT Sans', sans-serif;
 overflow: hidden;}
+
+.orangsq h2{font-size: 90px;
+   position: absolute;
+
+   top: 100px;
+   
+   left: 80px;}
+
 .detals{left: -160px;
 
    position: relative;}
-   .detal{margin-right: -62px;
+   .detal{float: right;
 
-      float: right;
+      top: -60px;
       
-      margin-top: -400px;}
+      position: absolute;}
 
 
 
@@ -451,7 +460,8 @@ background-repeat: no-repeat}
       max-height: 318px;
       
    color: #ffffff;
-font-size: 48px;font-family: Tahoma}
+font-size: 48px;font-family: Tahoma;
+background-color: rgba(9, 9, 9, 0.69)}
 
 .optmsk:hover{
    background-color: rgba(9, 9, 9, 0.69)
@@ -487,7 +497,9 @@ border: 3px solid #0e86fb;
 
 text-align: center;}
 
-.lndbx1:hover{border: 3px solid #0e86fb;}
+.lndbx1:hover{
+   background-color: #0e86fb;
+   border: 3px solid #0e86fb;}
 
 
 
@@ -724,6 +736,29 @@ bottom: 5vmax;}
    grid-column: 1/4;
    
    grid-row: 2;}
+
+
+   .adaptxt h1{text-align: center;
+      font-size: 34px;}
+   .adaptxt h3{
+      margin-left: 150px;
+      font-family: Tahoma;
+
+font-weight: normal;
+
+font-size: 21px;
+      text-align: left;
+      margin-top: 10%;
+      
+      
+      
+
+      
+      
+      
+      
+      }
+
 .adaptmb1{
 
    
@@ -753,7 +788,7 @@ bottom: 5vmax;}
    
    text-align: center;
    
-   display: grid;
+   
    
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    
@@ -780,8 +815,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
     max-width: 100%;
     height: auto;
     bottom: -2px;
-    position: relative;
-
+    position: absolute;
+left: 0;
 }
       .mask3{
          position: absolute;
@@ -789,7 +824,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 width: 100%;
 
 height: 100%;
-background-color: rgba(48, 50,99,0.67);
+background-color: rgba(8, 8, 8, 0.65);
       }
       .mask3 h1{margin-top: 2%;
 
@@ -813,17 +848,27 @@ background-color: rgba(48, 50,99,0.67);
 
 display: grid;
 
-position: relative;
+position: absolute;
 
 grid-template-rows: 1fr 1fr 1fr;
 
 grid-template-columns: 1fr 1fr 1fr;
       }
-.infotradein{grid-column: 1/8;
+      .tdhead{position: relative;
+         
+         margin-top: 2%;
+         font-size: 59px;
+         font-family: Tahoma;
+         color: white;
+         font-weight: bolder;
+     
+     }
+.infotradein{
+   margin-top: 5%;
 
    grid-row: 2;
    
-   position: relative;
+   position: absolute;
    
    color: white;
    
@@ -850,16 +895,81 @@ grid-template-columns: 1fr 1fr 1fr;
 
 
 
+.everhelp{position: relative;
+   display: grid;
+   grid-template-columns: 150px auto 150px auto 150px;
+   
+
+}
+   .helptxt{grid-column: 2;
+
+      text-align: left;
+      
+      position: relative;
+      
+      grid-row: 2;
+      
+      line-height: 35px;
+      
+      font-family: Tahoma, sans-serif,bold;
+      
+      font-size: 20px;
+  
+  }
+  .helptxt h1{text-align: center;
+   font-size: 34px;
+
+}
+  .helptxt h3{font-size: 20px;
+   text-align: left;
+   margin-top: 15%;
+   font-weight: normal;}
+  .help_13{grid-column: 4;
+
+   grid-row: 2;
+   
+   position: relative;}
 
 
 
 
 
 
+.contactus{
+      position: relative;
 
 
 
+
+font-family: Tahoma, sans-serif,bold;
+
+font-size: 20px;background-image: url(../img/bookcoffee.jpg)}
+
+.mask4{
+   display: grid;
+    grid-template-columns: 150px 1fr 1fr 1fr auto;
+    position: absolute;
+    background-color: rgba(48, 50,99,0.67);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    grid-template-rows: 100px auto;
+
+}
+.conttext{grid-column: 2;
+   grid-row: 2;;
+   color: white;}
+.conttext h1{text-align: center;
+   font-size: 34px;}
+.conttext h3{
+   font-size: 21px;
+    text-align: left;
+    margin-top: 15%;
+    font-weight: normal;}
+    .container1{grid-column: 4;
+
+      grid-row: 2;}
    .orangefooter{background-color: orange}
 
 
-   .contactus{background-image: url(../img/bookcoffee.jpg)}
+   
