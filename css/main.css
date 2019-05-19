@@ -426,9 +426,7 @@ overflow: hidden;}
    
    position: relative;
 background-repeat: no-repeat}
-.opt1:hover{ background-color: #0e86fb;}
-.opt2:hover{ background-color: #fdec00;}
-.opt3:hover{ background-color: #51fb0e;}
+
 .opt2{
    text-align: left;
    grid-column: 4;
