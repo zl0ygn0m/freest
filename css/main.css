@@ -20,7 +20,7 @@ width:100% ;
 margin: 0 auto;
 display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: auto minmax(100px ,auto) minmax(1120px ,auto) auto 1fr auto minmax(660px ,auto) minmax(675px ,auto) minmax(760px ,auto) minmax(150px ,auto);
+grid-template-rows: auto minmax(100px ,auto) minmax(1120px ,auto) auto 1fr auto minmax(660px ,auto) minmax(675px ,auto) minmax(565px ,auto) minmax(150px ,auto);
  
 
 }
@@ -860,3 +860,6 @@ grid-template-columns: 1fr 1fr 1fr;
 
 
    .orangefooter{background-color: orange}
+
+
+   .contactus{background-image: url(../img/bookcoffee.jpg)}
