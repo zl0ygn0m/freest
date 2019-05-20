@@ -220,7 +220,8 @@ justify-content: center;}
       display: grid;
       grid-template-columns:  125px 1fr 1fr 1fr 125px;
       grid-template-rows: 625px 340px 257px;
-
+z-index: 0;
+grid-gap: 25px;
    }
 
    .webig{font-size: 340px;
@@ -426,9 +427,7 @@ overflow: hidden;}
    
    position: relative;
 background-repeat: no-repeat}
-.opt1:hover{ background-color: #0e86fb;}
-.opt2:hover{ background-color: #fdec00;}
-.opt3:hover{ background-color: #51fb0e;}
+
 .opt2{
    text-align: left;
    grid-column: 4;
@@ -564,6 +563,17 @@ font-size: 24px
    .srch1{width: 625px;
    height: 670px;
 grid-column: 2;}
+.srch1 h1{text-align: left;
+
+   font-size: 41px;
+   
+   margin-left: 70px;}
+.srch1 h3{font-size: 20px;
+   text-align: left;
+   margin-top: 15%;
+   font-weight: normal;
+
+}
    .srch2{}
    .srch3{}
 
@@ -804,7 +814,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 
 
 
-
+.tradein button {font-size: 26px;}
 
 
 
@@ -873,7 +883,7 @@ grid-template-columns: 1fr 1fr 1fr;
 
    grid-row: 2;
    
-   position: absolute;
+   position: relative;
    
    color: white;
    
@@ -990,8 +1000,9 @@ font-size: 20px;background-image: url(../img/bookcoffee.jpg)}
        height: 350px;
        margin-right: 80px;}
 
-	
+	.contform{color: white}
 input, textarea {
+   color: white;
   
  border: solid 1px #CCCCCC;
  margin-left: 10px;
