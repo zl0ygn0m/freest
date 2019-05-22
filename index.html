@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>FREE SITE</title>
     <link rel="stylesheet" href="css/main.css">
     
@@ -13,16 +14,18 @@
 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 <body>
+        
     <div class=wrapper>
             <nav>
                     <div class="navigation">
-                            <ul class="menu">
-                                <li><a href="#headerinfo">Главная</a></li>
-                                <li><a href="#about">О нас</a></li>
-                                <li><a href="#options">Услуги</a></li>
-                                <li><a href="#projects">Наши проекты</a></li>
-                                <li><a href="#tradein">Trade-In</a></li>
-                                <li><a href="#contactus">Обратная связь</a></li>
+                            <ul id ="menu" class="menu">
+                                
+                                 <li> <a href="#headerinfo" ">Главная</a></li>
+                                <li><a href="#about" >О нас</a></li>
+                                <li><a href="#options" >Услуги</a></li>
+                                <li><a href="#projects" >Наши проекты</a></li>
+                                <li><a href="#tradein" >Trade-In</a></li>
+                                <li><a href="#contactus" >Обратная связь</a></li>
                             </ul>
                         </div>
             </nav>
@@ -38,9 +41,9 @@
                         сайта в интернет. Но почти никто не умеет делать проекты,<p></p>
                         которые работают и приносят прибыль.</div>
                     <div class="infosquare">
-                       <div class="boxsqr1" ><img src="img/sq1.png" class="sqr sq1">518</div>
-                       <div class="boxsqr2" ><img src="img/sq2.png" class="sqr sq1">345</div>
-                        <div class="boxsqr3" ><img src="img/sq3.png" class="sqr sq1">218</div>
+                       <div class="boxsqr1" ><img src="img/sq1.png" class="sqr sq1"><h1>518</h1><h3>оказанных услуг</h3></div>
+                       <div class="boxsqr2" ><img src="img/sq2.png" class="sqr sq1"><h1>345</h1><h3>проектов</h3></div>
+                        <div class="boxsqr3" ><img src="img/sq3.png" class="sqr sq1"><h1>218</h1><h3>постоянных клиентов</h3></div>
                     </div>
                </div>
                
@@ -95,11 +98,17 @@
                 <div class="infobox2">
             <img src="img/cupcoffee.jpg" alt="cupcoffee" class="cupcoffee">
             <div class="mask2">
-                    <div class="optinfo"></div>
+                    
+                        <h1>КРЕДО НАШЕЙ КОМПАНИИ</h1>
+                        <h3>Мы хотим,чтобы Ваше бизнес был ещё успешней и прибыльней.В нашей понимании<p></p> качественный продукт - это
+                            достижение гармонии между эстетикой и<p></p>маркетинговыми целями.Высокий уровень контроля качества,
+                            опыт<p></p> работы и креативный подход к решению задач - залог<p></p> нашего успеха.
+                        </h3>
+                   
             </div>
         </div>
         <div class="undopt">
-            <div class="orangsq"><img src="img/detals.png" alt="detals" class="detals"><h2>УСЛУГИ</h2><img src="img/detal.png" alt="detal" class="detal"></div>
+            <div class="orangsq"><img src="img/detals.png" alt="detals" class="detals"><h1>Услуги</h1><img src="img/detal.png" alt="detal" class="detal"></div>
         </div>
         <div class="opts">
             <div class="opt1">
@@ -114,14 +123,18 @@
             <div class="lndbx3">от 20000 руб</div></div></div>
         </div>
         <div class="frstsrch">
-                <div class="srch1"><h1><p>первые в поиске</p></h1><h3>Мы предлагаем услуги по SEO продвижению <p></p>
+                <div class="srch1"><h1>ПЕРВЫЕ В ПОИСКЕ</h1><h3>Мы предлагаем услуги по SEO продвижению <p></p>
                         сайтов в ведущих поисковых системах Yandex <p></p>
                         и Google. Поисковое продвижение сайта в <p></p>
                         нашей веб-студии — это гарантированное <p></p>
                         присутствие на лидирующих позициях и <p></p>
                         привлечение необходимой аудитории.</h3></div>
-                <div class="srch2"></div>
-                <div class="srch3"></div>
+                <div class="srch2">
+                    <img src="img/google.png" alt="google" class="google">
+                </div>
+                <div class="srch3">
+                    <img src="img/yandex.png" alt="yandex" class="yabdex">
+                </div>
 
         </div>
                 
@@ -272,6 +285,9 @@
         </div>
         <div class="orangefooter"></div>
     </div>
+    
+        
+        </ul>
     <script>jQuery(function($) {
 	        $(window).scroll(function(){
 	            if($(this).scrollTop()>805){
@@ -281,6 +297,17 @@
 	                $('.navigation').removeClass('fixed');
 	            }
 	        });
-	    });</script>
+        });</script>
+
+
+
+       
+
+
+        
+
+
+        
+  
 </body>
 </html>
