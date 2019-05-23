@@ -810,11 +810,27 @@ bottom: 5vmax;}
 
          grid-row: 2;grid-column: 2;}
       .proj4{
+         position: absolute;
+
          grid-row: 2;grid-column: 2;
 
          height: 100%;
          
          width: 100%;}  
+
+         .prjbx4 h2 {
+            top: 30%;
+            position: relative;
+
+            text-align: center;
+         color: #ffffff80}
+         .prjbx4 h3 {
+            
+            top: 27%;
+            position: relative;
+
+            text-align: center;
+            color: #ffffff80}
 
          .prjbx5{position: relative;
 
